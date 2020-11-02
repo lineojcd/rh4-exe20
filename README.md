@@ -15,7 +15,7 @@ dts devel build -f --arch amd64
 
 ### 3. Run docker image with the following options
 ```bash
-docker run -it --rm --net host -v [PATH_TO_BAG_FOLDER]:/code/catkin_ws/src/exercise20/mounted_volume duckietown/exercise20:v1-amd64 /bin/bash
+docker run -it --rm --net host -v [PATH_TO_BAG_FOLDER]:/code/catkin_ws/src/exercise20/mounted_volume duckietown/rh4-exe20:latest-amd64 /bin/bash
 ```
 
 ### 4. After going inside the docker shell, run the python script using the command below
